@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.create, R.id.upgrade, R.id.insert, R.id.modify, R.id.query, R.id.delete, R.id.delete_db,})
+    @OnClick({R.id.create, R.id.upgrade, R.id.insert, R.id.modify, R.id.query, R.id.delete, R.id.delete_db})
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.create: {
